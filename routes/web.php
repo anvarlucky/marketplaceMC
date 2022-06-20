@@ -18,3 +18,7 @@ use App\Http\Controllers\Client\IndexController;
     return view('welcome');
 });*/
 Route::get('/',[IndexController::class,'index']);
+Route::get('/cluster',[IndexController::class,'cluster']);
+Route::get('/details',[IndexController::class,'details']);
+Route::get('/filters',[IndexController::class,'filters']);
+Route::get('/categories',[IndexController::class,'categories']);
