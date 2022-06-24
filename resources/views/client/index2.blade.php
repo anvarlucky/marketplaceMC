@@ -1,5 +1,6 @@
 @extends('layouts.Main')
 @section('content')
+
     <!-- Search Panel -->
     <div class="container">
         <form class="row mt-4">
@@ -25,9 +26,9 @@
                 </select>
             </div>
             <div class="col-lg-2 mb-2 mb-lg-0 d-flex align-items-center justify-content-center rounded-end border-lg border-start-lg-0">
-                <a href="/filters" class="btn btn-primary text-white px-xl-4 text-nowrap">
+                <button class="btn btn-primary text-white px-xl-4 text-nowrap">
                     E'lonni ko'rsatish
-                </a>
+                </button>
             </div>
         </form>
     </div>
@@ -101,15 +102,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car3_details"><img src="{{asset('/assets/images/special_1.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailtaxta"><img src="{{asset('/assets/image_qur_material/taxta.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Taxta</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    150000 so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                    Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -148,15 +149,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car2_details"> <img src="{{asset('/assets/images/special_2.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailplita"> <img src="{{asset('/assets/image_qur_material/Plita.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Beton plita</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    650000so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!--  <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                     Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -195,15 +196,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car3_details"> <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <img src="{{asset('/assets/image_qur_material/gisht3.jpg')}}" height="160" class="w-100" alt="special">
+                                <p class="special-ad">Pishiq g'isht</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    2700 so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                    Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -242,15 +243,15 @@
                     <div class="swiper-slide">
                         <div class="special-item px-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car4_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailarmatura"> <img src="{{asset('/assets/image_qur_material/18mm_armatura.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">18 mm armatura</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    9500 so’m/1 metr
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                    Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -289,15 +290,15 @@
                     <div class="swiper-slide">
                         <div class="special-item pe-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car3_details">  <img src="{{asset('/assets/images/special_5.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detmaterials"> <img src="{{asset('/assets/image_qur_material/sement3.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Sement ЦЦП 400</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    39500 so’m/50 kg
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                    Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -337,15 +338,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car3_details"> <img src="{{asset('/assets/images/special_1.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailgisht"> <img src="{{asset('/assets/image_qur_material/gisht3.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Pishiq g'isht</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    2700 so’m/dona
                                 </p>
-
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!--
+                                                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                                                    Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -384,15 +385,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car2_details"> <img src="{{asset('/assets/images/special_2.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailplita"> <img src="{{asset('/assets/image_qur_material/Plita2.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Plita</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    650000 so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!--   <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                      Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -431,15 +432,15 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car2_details"> <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailtaxta"> <img src="{{asset('/assets/image_qur_material/taxta4.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Taxta</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    150000 so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
+                                <!--  <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                     Arenda</small> -->
                                 <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
@@ -478,18 +479,17 @@
                     <div class="swiper-slide">
                         <div class="special-item px-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car2_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detmaterials"> <img src="{{asset('/assets/image_qur_material/sement5.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Sement ЦЦП  400</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
-                                </p>
+                                    39500 so’m/50 kg
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                                    Arenda</small>
-                                <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                                    berish</small>
-                                <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
+                                    <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                        Arenda</small> -->
+                                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                                        berish</small>
+                                    <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
                             </div>
 
                             <div class="border rounded-bottom p-3">
@@ -525,16 +525,16 @@
                     <div class="swiper-slide">
                         <div class="special-item pe-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/car3_details"> <img src="{{asset('/assets/images/special_5.png')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
+                                <a href="/detailplita"> <img src="{{asset('/assets/image_qur_material/Blok.jpg')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Blok g'isht</p>
 
                                 <p class="special-price">
-                                    1 050 000 000 so’m/dona
+                                    7000 so’m/dona
                                 </p>
 
-                                <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
                                     Arenda</small>
-                                <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+ -->                                <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
                                     berish</small>
                                 <small class="special-store"><i class="fas fa-store-alt"></i> Olib ketish</small>
                             </div>
@@ -645,7 +645,7 @@
             </div>
             <div class="recommended-item ps-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/car3_details"><img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
+                    <a href="/car3_details"> <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -673,7 +673,7 @@
             </div>
             <div class="recommended-item px-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/car2_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
+                    <a href="/car4_details">  <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -732,7 +732,150 @@
         <div class="row align-items-stretch mt-3">
             <div class="recommended-item ps-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/car2_details"> <img src="{{asset('/assets/images/special_1.png')}}" height="160" class="w-100" alt="special"></a>
+                    <a href = "/detailarmatura"><img src="{{asset('/assets/image_qur_material/armatura3.jpg')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">D32 mm armatura</p>
+
+                    <p class="special-price">
+                        11500 so’m/1 metr
+                    </p>
+
+                    <!--   <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                          Arenda</small> -->
+                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                        berish</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary text-white mt-3 px-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            Telefon
+                        </button>
+
+                        <div class="special-icons mt-3">
+                            <i class="far fa-comments"></i>
+
+                            <i class="far fa-star ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommended-item ps-lg-0">
+                <div class="p-3 border rounded">
+                    <a href="/detailgisht"> <img src="{{asset('/assets/image_qur_material/images.jpg')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">Pishiq g'isht</p>
+
+                    <p class="special-price">
+                        2700 so’m/dona
+                    </p>
+
+                    <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                        Arenda</small> -->
+                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                        berish</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary text-white mt-3 px-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            Telefon
+                        </button>
+
+                        <div class="special-icons mt-3">
+                            <i class="far fa-comments"></i>
+
+                            <i class="far fa-star ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommended-item ps-lg-0">
+                <div class="p-3 border rounded">
+                    <a href="/detmaterials"> <img src="{{asset('/assets/image_qur_material/eurosement.png')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">Sement ЦЦП 400</p>
+
+                    <p class="special-price">
+                        39500 so’m/50 kg
+                    </p>
+
+                    <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                        Arenda</small> -->
+                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                        berish</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary text-white mt-3 px-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            Telefon
+                        </button>
+
+                        <div class="special-icons mt-3">
+                            <i class="far fa-comments"></i>
+
+                            <i class="far fa-star ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommended-item px-lg-0">
+                <div class="p-3 border rounded">
+                    <a href="/detailplita"> <img src="{{asset('/assets/image_qur_material/Plita.jpg')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">Beton plita</p>
+
+                    <p class="special-price">
+                        650000 so’m/dona
+                    </p>
+                    <!--
+                                        <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                                            Arenda</small> -->
+                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                        berish</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary text-white mt-3 px-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            Telefon
+                        </button>
+
+                        <div class="special-icons mt-3">
+                            <i class="far fa-comments"></i>
+
+                            <i class="far fa-star ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommended-item pe-lg-0">
+                <div class="p-3 border rounded">
+                    <a href="/detailtaxta"> <img src="{{asset('/assets/image_qur_material/taxta.jpg')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">Taxta</p>
+
+                    <p class="special-price">
+                        150000 so’m/dona
+                    </p>
+
+                    <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>
+                        Arenda</small>
+ -->                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
+                        berish</small>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary text-white mt-3 px-4">
+                            <i class="fas fa-phone-alt"></i>
+
+                            Telefon
+                        </button>
+
+                        <div class="special-icons mt-3">
+                            <i class="far fa-comments"></i>
+
+                            <i class="far fa-star ms-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-stretch mt-3">
+            <div class="recommended-item ps-lg-0">
+                <div class="p-3 border rounded">
+                    <a href="/car3_details"> <img src="{{asset('/assets/images/special_1.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -788,7 +931,7 @@
             </div>
             <div class="recommended-item ps-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/car2_details">  <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
+                    <a href="/car3_details"> <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -816,7 +959,7 @@
             </div>
             <div class="recommended-item px-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/car2_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
+                    <a href="/car3_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -845,149 +988,6 @@
             <div class="recommended-item pe-lg-0">
                 <div class="p-3 border rounded">
                     <a href="/car2_details"> <img src="{{asset('/assets/images/special_5.png')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
-
-                    <p class="special-price">
-                        1 050 000 000 so’m/dona
-                    </p>
-
-                    <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                        Arenda</small>
-                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                        berish</small>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="btn btn-primary text-white mt-3 px-4">
-                            <i class="fas fa-phone-alt"></i>
-
-                            Telefon
-                        </button>
-
-                        <div class="special-icons mt-3">
-                            <i class="far fa-comments"></i>
-
-                            <i class="far fa-star ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-items-stretch mt-3">
-            <div class="recommended-item ps-lg-0">
-                <div class="p-3 border rounded">
-                    <a href="/car3_details"> <img src="{{asset('/assets/images/special_1.png')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
-
-                    <p class="special-price">
-                        1 050 000 000 so’m/dona
-                    </p>
-
-                    <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                        Arenda</small>
-                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                        berish</small>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="btn btn-primary text-white mt-3 px-4">
-                            <i class="fas fa-phone-alt"></i>
-
-                            Telefon
-                        </button>
-
-                        <div class="special-icons mt-3">
-                            <i class="far fa-comments"></i>
-
-                            <i class="far fa-star ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommended-item ps-lg-0">
-                <div class="p-3 border rounded">
-                    <a href="/car2_details"><img src="{{asset('/assets/images/special_2.png')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
-
-                    <p class="special-price">
-                        1 050 000 000 so’m/dona
-                    </p>
-
-                    <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                        Arenda</small>
-                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                        berish</small>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="btn btn-primary text-white mt-3 px-4">
-                            <i class="fas fa-phone-alt"></i>
-
-                            Telefon
-                        </button>
-
-                        <div class="special-icons mt-3">
-                            <i class="far fa-comments"></i>
-
-                            <i class="far fa-star ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommended-item ps-lg-0">
-                <div class="p-3 border rounded">
-                    <a href="/car2_details"> <img src="{{asset('/assets/images/special_3.png')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
-
-                    <p class="special-price">
-                        1 050 000 000 so’m/dona
-                    </p>
-
-                    <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                        Arenda</small>
-                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                        berish</small>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="btn btn-primary text-white mt-3 px-4">
-                            <i class="fas fa-phone-alt"></i>
-
-                            Telefon
-                        </button>
-
-                        <div class="special-icons mt-3">
-                            <i class="far fa-comments"></i>
-
-                            <i class="far fa-star ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommended-item px-lg-0">
-                <div class="p-3 border rounded">
-                    <a href="/car2_details"> <img src="{{asset('/assets/images/special_4.png')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
-
-                    <p class="special-price">
-                        1 050 000 000 so’m/dona
-                    </p>
-
-                    <small class="special-type text-success"><i class="fas fa-check-circle"></i>
-                        Arenda</small>
-                    <small class="special-delivery mx-1"><i class="fas fa-truck"></i> Yetkazib
-                        berish</small>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="btn btn-primary text-white mt-3 px-4">
-                            <i class="fas fa-phone-alt"></i>
-
-                            Telefon
-                        </button>
-
-                        <div class="special-icons mt-3">
-                            <i class="far fa-comments"></i>
-
-                            <i class="far fa-star ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommended-item pe-lg-0">
-                <div class="p-3 border rounded">
-                    <a href="/car4_details"><img src="{{asset('/assets/images/special_5.png')}}" height="160" class="w-100" alt="special"></a>
                     <p class="special-ad">MAZ-KS-45729A-0-01 ko'chma krani</p>
 
                     <p class="special-price">
@@ -1377,5 +1377,8 @@
             </div>
         </div>
     </div>
-    <!-- End of Slider Panel -->
+
+</div>
+
+
 @endsection

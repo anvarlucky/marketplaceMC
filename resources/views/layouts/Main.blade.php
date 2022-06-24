@@ -42,17 +42,17 @@
             <div class="container">
                 <div class="navigation">
                     <div class="logo">
-                        <img src="{{asset('/assets/images/logo.svg')}}" alt="logo">
+                        <a href="/"><img src="{{asset('/assets/images/logo.svg')}}" alt="logo"></a>
                     </div>
 
                     <nav class="navbar my-lg-0 my-3 mx-auto">
-                        <a href="/" class="nav-link me-2 active">
+                        <a href="/tex" class="nav-link me-2 {{ request()->routeIs('tex*') ? 'active ' : '' }}">
                             Maxsus texnika
                         </a>
-                        <a href="#" class="nav-link me-2">
+                        <a href="/materials" class="nav-link me-2 {{ request()->routeIs('materials*') ? 'active ' : '' }}">
                             Qurilish materiallari
                         </a>
-                        <a href="/cluster" class="nav-link">
+                        <a href="/cluster" class="nav-link me-2 {{ request()->routeIs('cluster*') ? 'active ' : '' }}">
                             Korxona va klasterlar
                         </a>
                     </nav>
