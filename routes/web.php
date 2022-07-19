@@ -18,6 +18,8 @@ use App\Http\Controllers\Client\IndexController;
     return view('welcome');
 });*/
 Route::get('/',[IndexController::class,'index2']);
+Route::get('/house',[IndexController::class,'house'])->name('house');
+Route::get('/detsad',[IndexController::class,'detsad']);
 Route::get('/tex',[IndexController::class,'index'])->name('text');
 Route::get('/cluster',[IndexController::class,'cluster'])->name('cluster');
 Route::get('/details',[IndexController::class,'details']);
@@ -33,3 +35,4 @@ Route::get('/detailtaxta',[IndexController::class,'detailtaxta']);
 Route::get('/detailgisht',[IndexController::class,'detailgisht']);
 Route::get('/detailarmatura',[IndexController::class,'detailarmatura']);
 Route::get('/detailplita',[IndexController::class,'detailplita']);
+Route::get('/detkley',[IndexController::class,'detkley']);

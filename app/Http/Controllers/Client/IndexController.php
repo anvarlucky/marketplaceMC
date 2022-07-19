@@ -13,7 +13,14 @@ class IndexController extends Controller
 
     public function index2(){
         return view('client.index2');
-}
+    }
+
+    public function house(){
+        return view('client.house');
+    }
+    public function detsad(){
+        return view('client.detsad');
+    }
 
     public function cluster(){
         return view('client.cluster');
@@ -69,5 +76,9 @@ class IndexController extends Controller
     }
     public function detailplita(){
         return view('client.details_plita');
+    }
+
+    public function detkley(){
+        return view('client.details_kley');
     }
 }

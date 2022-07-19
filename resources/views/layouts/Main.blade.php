@@ -55,6 +55,9 @@
                         <a href="/cluster" class="nav-link me-2 {{ request()->routeIs('cluster*') ? 'active ' : '' }}">
                             Korxona va klasterlar
                         </a>
+                        <a href="/house" class="nav-link me-2 {{ request()->routeIs('house*') ? 'active ' : '' }}">
+                            Na’munaviy loyihalar
+                        </a>
                     </nav>
 
                     <div class="d-flex justify-content-between w-lg-auto w-100">

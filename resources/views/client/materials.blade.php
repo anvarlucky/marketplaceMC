@@ -74,11 +74,18 @@
                 <p class="category-text mt-3 mb-0">Taxta</p>
             </a>
         </div>
-        <div class="category-item px-lg-0">
+        {{--<div class="category-item px-lg-0">
             <a href="/detmaterials" class="d-block text-center p-3 border rounded">
                 <img src="{{asset('/assets/image_qur_material/sement.jpg')}}" height="160" class="w-100" alt="category">
 
                 <p class="category-text mt-3 mb-0">Sement</p>
+            </a>
+        </div>--}}
+        <div class="category-item px-lg-0">
+            <a href="/detkley" class="d-block text-center p-3 border rounded">
+                <img src="{{asset('/assets/image_qur_material/kley1.png')}}" height="160" class="w-100" alt="category">
+
+                <p class="category-text mt-3 mb-0">Kleylar</p>
             </a>
         </div>
         <div class="category-item pe-lg-0">
@@ -195,8 +202,8 @@
                 <div class="swiper-slide">
                     <div class="special-item ps-0">
                         <div class="p-3 border border-bottom-0 rounded-top">
-                            <a href="/detailgisht"><img src="{{asset("/assets/image_qur_material/g'isht.jpg")}}" height="160" class="w-100" alt="special"></a>
-                            <p class="special-ad">Qizil G'isht</p>
+                            <a href="/detkley"><img src="{{asset("/assets/image_qur_material/kley2.png")}}" height="160" class="w-100" alt="special"></a>
+                            <p class="special-ad">ROTTO Shtukaturka</p>
 
                             <p class="special-price">
                                 2700 so’m/dona
@@ -589,11 +596,11 @@
 
         <div class="recommended-item ps-lg-0">
             <div class="p-3 border rounded">
-                <a href="/detailgisht"> <img src="{{asset("/assets/image_qur_material/g'isht.jpg")}}" height="160" class="w-100" alt="special"></a>
-                <p class="special-ad">Qizil Gisht</p>
+                <a href="/detkley"> <img src="{{asset("/assets/image_qur_material/travertin1.png")}}" height="160" class="w-100" alt="special"></a>
+                <p class="special-ad">Travertin Red stone</p>
 
                 <p class="special-price">
-                    2700 so’m/dona
+                    168015 so’m/dona
                 </p>
 
                 <!-- <small class="special-type text-success"><i class="fas fa-check-circle"></i>

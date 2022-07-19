@@ -102,8 +102,8 @@
                     <div class="swiper-slide">
                         <div class="special-item ps-0">
                             <div class="p-3 border border-bottom-0 rounded-top">
-                                <a href="/detailtaxta"><img src="{{asset('/assets/image_qur_material/taxta.jpg')}}" height="160" class="w-100" alt="special"></a>
-                                <p class="special-ad">Taxta</p>
+                                <a href="/detkley"><img src="{{asset('/assets/image_qur_material/kley1.png')}}" height="160" class="w-100" alt="special"></a>
+                                <p class="special-ad">Kley Graniter</p>
 
                                 <p class="special-price">
                                     150000 so’m/dona
@@ -117,7 +117,7 @@
                             </div>
 
                             <div class="border rounded-bottom p-3">
-                                <a href="#" class="special-service">"OOO «MAGISTRAL DIESEL SERVICE»"</a>
+                                <a href="#" class="special-service">"OOO «MEGA GROUP»"</a>
 
                                 <a href="#" class="special-comment mt-2">
                         <span class="d-flex me-2">
@@ -760,8 +760,8 @@
             </div>
             <div class="recommended-item ps-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/detailgisht"> <img src="{{asset('/assets/image_qur_material/images.jpg')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">Pishiq g'isht</p>
+                    <a href="/detkley"> <img src="{{asset('/assets/image_qur_material/kley2.png')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">ROTTO Shtukaturka</p>
 
                     <p class="special-price">
                         2700 so’m/dona
@@ -844,8 +844,8 @@
             </div>
             <div class="recommended-item pe-lg-0">
                 <div class="p-3 border rounded">
-                    <a href="/detailtaxta"> <img src="{{asset('/assets/image_qur_material/taxta.jpg')}}" height="160" class="w-100" alt="special"></a>
-                    <p class="special-ad">Taxta</p>
+                    <a href="/detkley"> <img src="{{asset('/assets/image_qur_material/travertin1.png')}}" height="160" class="w-100" alt="special"></a>
+                    <p class="special-ad">Travertin Red stone</p>
 
                     <p class="special-price">
                         150000 so’m/dona
