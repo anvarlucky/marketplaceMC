@@ -36,7 +36,7 @@
                         </a>
 
                         <p class="details-price mt-4">
-                            115000000000 so’m
+                            Kelishilgan
                         </p>
 
 
@@ -45,7 +45,9 @@
 
                             Kontaktlarni ko‘rsatish
                         </button>
-
+                        <br>
+                        <br>
+                        <a href="{{route('pdfclient')}}"><i class="fas fa-file"> Faylni Ko`chirib olish</i></a>
                         <div class="d-flex align-items-center justify-content-between mt-5 fs-14">
                             <div class="details-share">
                                 Ulashish:
@@ -183,7 +185,8 @@
                     </p>
 
                     <p class="text-primary fw-500 mb-0">
-                        ООО "BOG`CHAINVEST"
+                        "QISHLOQQURILISHLOYIHA" MChJ
+
                     </p>
 
                     <a href="#" class="special-comment mt-2">
@@ -202,21 +205,20 @@
                             <i class="fas fa-map-marker-alt me-2 mt-1"></i>
 
                             <p class="details-info_text">
-                                г. Ташкент, Юнусабадский р-н, Малая кольцевая дорога, ул. И. Ахмада 12
-                            </p>
+                                Toshkent shahri, Shayxontohur tumani, A.Qodiriy ko'chasi, 7-uy                            </p>
                         </li>
                         <li class="d-flex align-items-start">
                             <i class="fas fa-globe me-2 mt-1"></i>
 
                             <p class="details-info_text">
-                                bogcha-invest.gl.uz
+                                qql.uz
                             </p>
                         </li>
                         <li class="d-flex align-items-start">
                             <i class="fas fa-phone-alt me-2 mt-1"></i>
 
                             <p class="details-info_text">
-                                +998(raqamni ko‘rish)
+                                +998(71)2411323
                             </p>
                         </li>
                         <li class="d-flex align-items-start">
@@ -224,7 +226,18 @@
 
                             <p class="details-info_text">
                                 Xabar yuborish
+                                <br>
+                                <br>
+                                Р/с:   20 214 000 704 767 451 001
+                                <br>
+                                ЧАКБ «DAVR-BANK» г.Ташкент,
+                                <br>
+                                МФО 01122,
+                                <br>ИНН 206 994 012,
+                                <br>ОКЭД 71110
+
                             </p>
+
                         </li>
                     </ul>
 

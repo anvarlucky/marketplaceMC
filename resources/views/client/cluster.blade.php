@@ -79,6 +79,8 @@
                             Reyting:BB
                         <br>
                             www.goldstepinvest.uz
+                        <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -123,7 +125,8 @@
                             Reyting:BB
                         <br>
                             www.yangi-zamon.uz
-
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -169,6 +172,8 @@
                             Reyting:BB
                         <br>
                         www.termizt.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -214,7 +219,8 @@
                             Reyting:BBB
                         <br>
                             www.binokor.uz
-
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -262,7 +268,8 @@
                             Reyting:BB
                         <br>
                             www.landhouse.uz
-
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -312,7 +319,8 @@
                             Reyting:BB
                         <br>
                             www.zarafshongold.uz
-
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -364,6 +372,8 @@
                         </p>
                         <p class="text-body">
                             www.agromirbuildings.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -414,6 +424,8 @@
                             Reyting:BB
                         <br>
                             www.mimar.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
@@ -467,12 +479,182 @@
                             Reyting:A
                         <br>
                             www.di.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="cluster border rounded py-2 my-4" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                    <img src="{{asset('/assets/images/99.jpg')}}" class="rounded" width="250" alt="cluster">
+                </div>
+                <div class="col-lg-9">
+                    <div class="d-flex">
+                        <div class="cluster_id">
+                            303519710
+                        </div>
 
+                        <div class="cluster_date">
+                            05.12.2015
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <p class="cluster_title mb-4">
+                        "TAYANCH QURILISH SERVIS" mas’uliyati cheklangan jamiyati
+
+
+
+                    </p>
+
+                    <div class="cluster_text mb-2">
+                        <i class="fas fa-phone-alt me-2"></i>
+
+                        <a href="#" class="text-body">+998906191001</a>
+                    </div>
+
+                    <div class="cluster_text">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+
+                        <a href="#" class="text-body">
+                            Navoiy viloyati, Qiziltepa tumani, Zarmitan QFY, Varozun mahallasi
+
+
+
+                        </a>
+                    </div>
+                    <div class="cluster_text  mt-2">
+                        <p class="text-body">
+                            Reyting:BB
+                            <br>
+                            www.tayanch-qurilish.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cluster border rounded py-2 my-4" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                    <img src="{{asset('/assets/images/1010.jpg')}}" class="rounded" width="250" alt="cluster">
+                </div>
+                <div class="col-lg-9">
+                    <div class="d-flex">
+                        <div class="cluster_id">
+                            203512644
+                        </div>
+
+                        <div class="cluster_date">
+                            06.02.2001
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <p class="cluster_title mb-4">
+                        "QURILISH TAMINOTCHI" mas’uliyati cheklangan jamiyati
+
+
+
+
+                    </p>
+
+                    <div class="cluster_text mb-2">
+                        <i class="fas fa-phone-alt me-2"></i>
+
+                        <a href="#" class="text-body">+998795552380</a>
+                    </div>
+
+                    <div class="cluster_text">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+
+                        <a href="#" class="text-body">
+                            Navoiy viloyati, Qiziltepa tumani, Qiziltepa shahri, Qizil-tong ko'chasi, 1-uy
+
+
+                        </a>
+                    </div>
+                    <div class="cluster_text  mt-2">
+                        <p class="text-body">
+                            Reyting:
+                            <br>
+                            www.qurilish-taminotchi.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cluster border rounded py-2 my-4" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                    <img src="{{asset('/assets/images/1111.jpg')}}" class="rounded" width="250" alt="cluster">
+                </div>
+                <div class="col-lg-9">
+                    <div class="d-flex">
+                        <div class="cluster_id">
+                            206159417
+                        </div>
+
+                        <div class="cluster_date">
+                            24.02.2006
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <p class="cluster_title mb-4">
+                        "BUNYODKOR ZAMONDOSH" mas’uliyati cheklangan jamiyati
+
+
+
+                    </p>
+
+                    <div class="cluster_text mb-2">
+                        <i class="fas fa-phone-alt me-2"></i>
+
+                        <a href="#" class="text-body">+998913098007</a>
+                    </div>
+
+                    <div class="cluster_text">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+
+                        <a href="#" class="text-body">
+                            Navoiy viloyati, Qiziltepa tumani, Uzilishkent shaharchasi, Uzilishkent MFY
+
+
+                        </a>
+                    </div>
+                    <div class="cluster_text  mt-2">
+                        <p class="text-body">
+                            Reyting:BB
+                            <br>
+                            www.bunyodkor-zamondosh.uz
+                            <br>
+                            Foydalanishga topshirilgan xonadonlar soni:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -1381,6 +1563,321 @@
             </div>
         </div>
     </div>
+    </div>
+    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog w-auto modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="{{asset('/assets/images/99.jpg')}}" class="w-100" alt="cluster">
+                        </div>
+
+                        <div class="col-lg-8">
+                            <p class="fw-600 font-roboto">
+                                "TAYANCH QURILISH SERVIS" mas’uliyati cheklangan jamiyati
+
+
+
+                            </p>
+
+                            <div class="cluster_text mb-2">
+                                <i class="fas fa-phone-alt me-2"></i>
+
+                                <a href="#" class="text-body">+998906191001</a>
+                            </div>
+
+                            <div class="cluster_text">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+
+                                <a href="#" class="text-body">
+                                    Navoiy viloyati, Qiziltepa tumani, Zarmitan QFY, Varozun mahallasi
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <p>Faoliyati: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="cluster_success py-0 d-inline-block">
+                                Hozirda mavjud
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tgan sana: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>05.12.2015
+
+
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tkazuvchi organ: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Tuman (shahar) hokimiyati</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>STIR: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>303519710</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>THSHT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>152 - Mas‘uliyati cheklangan yoki qo‘shimcha mas‘uliyatli jamiyat
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>DBIBT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>79994 - Davlat va xo‘jalik boshqaruvi organlari tarkibiga kirmagan tadbirkorlik sub‘yektlari</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>IFUT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>41202 - YAshash uchun mo'ljallanmagan binolar qurish
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ustav fondi: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>621 229 700,00 UZS</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Rahbar: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Raximov Xazrat Tojiyevich</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog w-auto modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="{{asset('/assets/images/1010.jpg')}}" class="w-100" alt="cluster">
+                        </div>
+
+                        <div class="col-lg-8">
+                            <p class="fw-600 font-roboto">
+                                "QURILISH TAMINOTCHI" mas’uliyati cheklangan jamiyati
+
+
+                            </p>
+
+                            <div class="cluster_text mb-2">
+                                <i class="fas fa-phone-alt me-2"></i>
+
+                                <a href="#" class="text-body">+998795552380</a>
+                            </div>
+
+                            <div class="cluster_text">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+
+                                <a href="#" class="text-body">
+                                    Navoiy viloyati, Qiziltepa tumani, Qiziltepa shahri, Qizil-tong ko'chasi, 1-uy
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <p>Faoliyati: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="cluster_success py-0 d-inline-block">
+                                Hozirda mavjud
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tgan sana: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>06.02.2001
+
+
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tkazuvchi organ: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Tuman (shahar) hokimiyati</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>STIR: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>203512644</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>THSHT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>152 - Mas‘uliyati cheklangan yoki qo‘shimcha mas‘uliyatli jamiyat
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>DBIBT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>79994 - Davlat va xo‘jalik boshqaruvi organlari tarkibiga kirmagan tadbirkorlik sub‘yektlari</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>IFUT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>23610 - Betondan qurilish uchun buyumlar ishlab chiqarish
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ustav fondi: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>6 164 000,00 UZS</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Rahbar: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Toshev Botir Shayimovich</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog w-auto modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="{{asset('/assets/images/1111.jpg')}}" class="w-100" alt="cluster">
+                        </div>
+
+                        <div class="col-lg-8">
+                            <p class="fw-600 font-roboto">
+                                "BUNYODKOR ZAMONDOSH" mas’uliyati cheklangan jamiyati
+
+
+
+                            </p>
+
+                            <div class="cluster_text mb-2">
+                                <i class="fas fa-phone-alt me-2"></i>
+
+                                <a href="#" class="text-body">+998913098007</a>
+                            </div>
+
+                            <div class="cluster_text">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+
+                                <a href="#" class="text-body">
+                                    Navoiy viloyati, Qiziltepa tumani, Uzilishkent shaharchasi, Uzilishkent MFY
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <p>Faoliyati: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="cluster_success py-0 d-inline-block">
+                                Hozirda mavjud
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tgan sana: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>24.02.2006
+
+
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ro'yxatdan o'tkazuvchi organ: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Tuman (shahar) hokimiyati</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>STIR: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>206159417</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>THSHT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>152 - Mas‘uliyati cheklangan yoki qo‘shimcha mas‘uliyatli jamiyat
+
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>DBIBT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>79994 - Davlat va xo‘jalik boshqaruvi organlari tarkibiga kirmagan tadbirkorlik sub‘yektlari</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>IFUT: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>41201 - Turar joy binolarini qurish
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Ustav fondi: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>2 560 000,00 UZS</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Rahbar: </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Xolikov Nodirbek Istamovich</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection

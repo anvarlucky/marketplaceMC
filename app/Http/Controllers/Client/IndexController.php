@@ -21,6 +21,11 @@ class IndexController extends Controller
     public function detsad(){
         return view('client.detsad');
     }
+    public function pdf(/*$id*/)
+    {
+        //$standart = Standart::select('id','pdf_standart')->where('id', $id)->first();
+        return response()->download(public_path('storage/pdf/1.pdf'));
+    }
 
     public function cluster(){
         return view('client.cluster');

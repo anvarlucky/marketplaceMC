@@ -53,7 +53,7 @@
                             Qurilish materiallari
                         </a>
                         <a href="/cluster" class="nav-link me-2 {{ request()->routeIs('cluster*') ? 'active ' : '' }}">
-                            Korxona va klasterlar
+                            Uy Joy klaster
                         </a>
                         <a href="/house" class="nav-link me-2 {{ request()->routeIs('house*') ? 'active ' : '' }}">
                             Na’munaviy loyihalar

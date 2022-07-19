@@ -20,6 +20,7 @@ use App\Http\Controllers\Client\IndexController;
 Route::get('/',[IndexController::class,'index2']);
 Route::get('/house',[IndexController::class,'house'])->name('house');
 Route::get('/detsad',[IndexController::class,'detsad']);
+Route::get('pdfclient',[IndexController::class,'pdf'])->name('pdfclient');
 Route::get('/tex',[IndexController::class,'index'])->name('text');
 Route::get('/cluster',[IndexController::class,'cluster'])->name('cluster');
 Route::get('/details',[IndexController::class,'details']);
